@@ -1,0 +1,1 @@
+echo.c parser.h pipe.o readme.txt exec.o ls  out.txt exec.c parser.o out.txt pinfo exec.h pipe2.c pwd fileio.c ls.c pipe.h main.c makefile fileio.o echo shell pinfo.c parser.c pipe.c pwd.c fileio.h 
