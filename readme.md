@@ -29,7 +29,7 @@ keep taking user commands.
 E.g:
 <Name@UBUNTU:~> ls &
 This command when finished, will print its result to stdout.
-<Name@UBUNTU:~>emacs &
+<Name@UBUNTU:~> emacs &
 <Name@UBUNTU:~> ls -l -a
 
 ### Specification 5: pinfo command (user defined)
@@ -43,11 +43,11 @@ Foreground processes: For example, executing a "vi" command in the foreground im
 wait for this process to complete and regain control when this process exits.
 Background processes: Any command invoked with "&" is treated as background command. 
 E.g
-<NAME@UBUNTU:~>ls &
+<NAME@UBUNTU:~> ls &
 This command when finished, should print its result to stdout.
-<NAME@UBUNTU:~>emacs &
-<NAME@UBUNTU:~>ls -l -a
-<NAME@UBUNTU:~>echo hello
+<NAME@UBUNTU:~> emacs &
+<NAME@UBUNTU:~> ls -l -a
+<NAME@UBUNTU:~> echo hello
 As and when emacs exits, your shell program should check the exit status of emacs and print it
 on stderr
 <NAME@UBUNTU:~>
@@ -63,7 +63,7 @@ E.g. Output redirection
 E.g. Input redirection
 <NAME@UBUNTU:~> sort < lines.txt
 E.g. Input-Output redirection
-<NAME@UBUNTU:~>sort < lines.txt > sortedlines.txt
+<NAME@UBUNTU:~> sort < lines.txt > sortedlines.txt
 Note: There is another clause for output direction '>>', and that must be implemented appropriately.
 
 
