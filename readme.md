@@ -52,6 +52,7 @@ As and when emacs exits, your shell program should check the exit status of emac
 on stderr
 <NAME@UBUNTU:~>
 emacs with pid 456 exited normally
+
 <NAME@UBUNTU:~>
 
 ### Specification 7: Input-output redirection functionality
